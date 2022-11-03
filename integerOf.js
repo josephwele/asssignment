@@ -1,11 +1,9 @@
-function integerOf(arr) {
-    let  result=[]
-     for(let i=0; i<arr.length;i++){
-       if(i>=0){
-        result.push(-(arr[i]-(arr[i+1])))
-       }
-       
-     }
-     return result
-   }
-   console.log(integerOf([-1,5,8,17,15]))
+function decodeArray(arr){
+  let total = ''
+  for (let i = 0; i < arr.length-1; i++){
+    total += Math.abs(arr[i] - arr[i+1])
+  }
+  return total
+}
+
+console.log(decodeArray([0,-3,0,4,0]))
