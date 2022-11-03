@@ -7,7 +7,7 @@ function zeroPlentiful(arr){
       count++
     }
     else{
-      if (count <= 4){
+      if (count < 4){
         return 0
       }
       count = 0
@@ -15,7 +15,7 @@ function zeroPlentiful(arr){
     }
   }
 
-  if (count <= 4){
+  if (count < 4){
     return 0
   }
 
