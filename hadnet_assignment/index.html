@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<style>
+.login-button {
+background-color: rgb(17, 244, 59);
+color: white;
+margin-top: 50px;
+margin-left: 40px;
+border: none;
+cursor: pointer;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 4px;
+
+}
+
+.container{
+  background-color: rgb(247, 231, 231);
+  border-style:double;
+  height: 500px;
+  width: 250px;
+  border-radius: 20px;
+  
+}
+.header{
+  margin-left: 20px;
+}
+.login-button:hover {
+opacity: 0.2;
+}
+</style>
+
+<body>
+  
+  <article  class= "container">
+    <div class="header">
+  <h2> Instagram</h2>
+  
+  <p class="username">username:</p>
+  <input type="text" id="userName" placeholder=""/>
+  <p class="password">password:</p>
+  <input type="password"id="password" placeholder=""/>
+  <br/>
+ <input type="button" class="login-button"value="Log in" onclick="userName()"/>
+</div>
+
+  <script src="./script.js">
+    
+  </script>
+  </article>
+</body>
+</html>
