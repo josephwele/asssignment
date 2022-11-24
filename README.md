@@ -1,12 +1,21 @@
-# asssignment
-## Please use your name + filename for your assignments
+# Elyod
 
-- **step1: set upstream and origin** git remote add url
-- **step2: git checkout upstream/development(make sure you have the latest code from development so use git pull)**
-- **step3: git checkout -b my_branch_name**
-- **step4: make changes on my_branch_name**
-- **step5: git add my_file_name**
-- **step6: git commit -m "my message"**
-- **step7: git push -u upstream Head**
-- **step8: go to github and click compare and pull request.**
 
+Please use your name + filename for your assignments
+
+ step 1: git remote add upstream <link>  (cloning)
+ 
+ step 2: git checkout -b <branch_name> (move to desired branch)
+ 
+ step 3: git pull (to add unadded files in github to comptuer)
+ 
+ step 4: git add <file_name> / git rm <file_name> (add/remove files)
+ 
+ step 5: git commit -m "<my message>"
+ 
+ step 6: git push -u upstream Head
+ 
+ step 7: go to github and click compare and pull request.
+  
+  
+ 
