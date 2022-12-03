@@ -7,9 +7,6 @@ const sec = prompt("Enter seconds: ");
 
 let timeSecond = parseInt(hrs * 3600) + parseInt(min * 60) + parseInt(sec);
 
-console.log(timeSecond);
-
-
 function timer(){
 
     let hours = Math.floor(timeSecond / 3600);

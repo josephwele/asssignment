@@ -21,13 +21,12 @@ window.addEventListener('load', () => {
         taskContent.classList.add("content");
         taskContent.innerText = task;
 
+
         taskLst.appendChild(taskContent);
 
-        const taskInput = document.createElement("input");
-        taskInput.classList.add("text");
-        taskInput.type = "text";
-        taskInput.value = task;
-        taskInput.setAttribute("readonly", "readonly");
+
+        input.value = ""
+
 
         const taskActions = document.createElement("div");
         taskActions.classList.add("actions")
@@ -40,9 +39,10 @@ window.addEventListener('load', () => {
         taskActions.appendChild(taskRemove);
 
         taskLst.appendChild(taskActions);
-        lst.appendChild(taskLst);
 
         lst.appendChild(taskLst);
+
+
 
 
         taskRemove.addEventListener('click', () => {
