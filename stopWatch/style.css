@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:linear-gradient(to right, hsl(170, 59%, 45%) 0%, #497BE8 100%);
+  margin: 100px 0;
+ 
+}
+
+.container{
+    text-align: center;
+    width: 100%;
+   
+    
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 80px;
+}
+
+p{
+    font-size: 3rem;
+    margin-bottom: 100px;
+    color: white;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    margin-right: 10px;
+   font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(238, 222, 222);
+}
+
+button:hover{
+    background-color: #089b4a;
+
+}
+.stop-btn:hover{
+    background-color: red;
+}
+
+.reset-btn:hover{
+    background-color:orange;
+}
