@@ -16,7 +16,10 @@ window.addEventListener("load", () => {
     });
 });
 
-// let actions = "";
+let actions = "";
+//const card = document.getElementById("container");
+//card.appendChild(res);
+console.log(card);
 function render(action) {
   const { title } = action;
   const image = "http://image.tmdb.org/t/p/w200/" + action.poster_path;
@@ -55,7 +58,7 @@ function renderMovie(movies) {
   const image = "http://image.tmdb.org/t/p/w200/" + movies.poster_path;
 
   movieList = `
-
+  <p>${release_date}</p>
             <img src=${image}>
             
             `;
