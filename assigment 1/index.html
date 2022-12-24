@@ -8,21 +8,26 @@
     <link rel="stylesheet" />
   </head>
   <body>
-    <div id="search_container">
+    <header id="search_container">
       <h1>MovieList</h1>
       <form>
-        <input type="text" id="search_bar" placeholder="Enter a movie" />
+        <input type="text" id="search_bar" placeholder="Enter a movie"/>
         <button type="submit" id="btn">submit</button>
       </form>
-      <div id="action_movies"></div>
-    </div>
-
-    <div id="movie_list">
-      <div id="container">
-        <h1></h1>
-        <p></p>
-      </div>
-    </div>
+      <nav id="nav">
+       <a href="#" id="click">Romance Movies</a>
+        <a href="#" id="horror">Horror Movies</a>
+        <a href="#" id="popular">Popular Movies</a>
+        <a href="#" id="recent">Recent Movies</a>
+        <a href="#" id="cartoon">Cartoon Movie</a>
+        <a href="#" id="spiritual">spiritual Movie</a>
+      </nav>
+    </header>
+    
+    <main id="movie_list">
+    <!--<h4><b>John Doe</b></h4>-->
+    <!--<p>Architect & Engineer</p>--> 
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
   </body>
