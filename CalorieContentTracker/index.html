@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Daily Calorie Log</h1>
+
+</div>
+    <div id="foodInputContainer">
+        <input type="text" id="searchFood" placeholder="Enter meal">
+        <button type="submit" id="btn-foodInputContainer">🔎</button>
+    </div>
+
+
+
+    <div id="userDataContainer">
+        <input type="number" id="age" placeholder="Enter age">
+        <select select name="" id="gender">
+            <option value="" disabled selected>Select gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+        </select>             
+        <input type="number" id="height" placeholder="Enter height (in cm)">
+        <input type="number" id="weight" placeholder="Enter weight (in lbs)">
+        <select select name="" id="activityLevel">
+            <option value="" disabled selected>Select exercise activity level</option>
+            <option value="level_1">level_1</option>
+            <option value="level_2">level_2</option>
+            <option value="level_3">level_3</option>
+        </select>  
+        <button type="submit" id="btn-userDataContainer">🔎</button>
+
+    <div id = "displayAll">
+        <div id="displayFoods"></div>
+        <section class="mealList">
+             <h3>Calories Left</h3>
+            <div id="calBackground">
+            <div id="displayCalories"></div>
+            <div id="meals">
+            </div>
+        </section>
+        </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>

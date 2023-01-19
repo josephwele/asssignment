@@ -1,0 +1,184 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0rem;
+    background-image: url("https://media.istockphoto.com/id/1301482898/photo/pepperoni-pizza-on-wooden-table.jpg?b=1&s=170667a&w=0&k=20&c=ULNbqiJ3sLVoKy3RwtBY6DuOPc0bXm8S87TnCmKPEfg=");
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+h2{
+    font-size: 15px;
+    color: white;
+}
+
+h3{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+.food-section{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 300px;
+    height: 300px; 
+    list-style-type:none;
+  }
+  
+.food-section:hover {
+    transform: scale(1.1);
+  }
+
+img{
+    margin: 10px;
+    width: 230px;
+    height: 200px;  
+    border-radius: 100px;
+  }
+
+
+#displayAll{
+  display: flex;
+}
+
+#allButtons{
+  display: flex;
+}
+
+#displayCalories{
+  margin: auto; 
+  margin-right: 0px;
+  color: white;
+}
+
+#calBackground{
+  background-color:black;
+  width: 200px; /* set the width */
+  height: 50px; /* set the height */
+  margin: auto; /* center the element on the page */
+  margin-right: 10px;
+  
+  /* additional positioning properties */
+}
+
+#searchFood{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  /* cursor: pointer; */
+}
+
+#age{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+}
+
+#age{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 4px 2px;
+}
+
+#gender{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+
+}
+
+#height{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 4px 2px;
+}
+
+#weight{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+
+}
+
+#activityLevel{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+}
+
+#btn-foodInputContainer{
+  padding: 12px 24px;
+  border-radius: 10px;
+
+}
+
+#btn-userDataContainer{
+  padding: 12px 24px;
+  border-radius: 10px;
+
+}

@@ -34,3 +34,7 @@ section{
   text-align: center;
   font-size: 100px;
 }
+
+.button{
+  padding: 40px 32px;
+}
